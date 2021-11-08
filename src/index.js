@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={Home} />
-    <Route path="/women" render={() => <Product type="female" />} />
+    <Route path="https://gracious-jackson-11edca.netlify.app/women" render={() => <Product type="female" />} />
     <Route path="/men" render={() => <Product type="male" />}  />
   </Router>,
   document.getElementById('root')
