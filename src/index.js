@@ -8,7 +8,7 @@ ReactDOM.render(
   <Router>
     <Route exact path="/" component={Home} />
     <Route path="/women" render={() => <Product type="female" />} />
-    <Route path="/men" render={() => <Product type="male" />} />
+    <Route path="/men" component={Home} />
   </Router>,
   document.getElementById('root')
 );
