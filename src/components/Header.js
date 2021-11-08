@@ -15,10 +15,6 @@ export default class Header extends Component {
     myCount = 1
     componentDidMount() {
         axios.get('https://myprivateshopjoy.herokuapp.com/sales').then((res) => {
-<<<<<<< HEAD
-            console.log(res.data)
-=======
->>>>>>> 0a04399b2ef46f78d7940672cbc862f50c7d782d
             this.setState({
                 sale: res.data,
                 count: res.data.length
