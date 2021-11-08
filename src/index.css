@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.myVideo {
+  width: 100%;
+  height: 900px;
+  object-fit: fill;
+}
+
+.categories {
+  position: absolute;
+  text-align: center;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.topCategories ul li{
+  display: inline;
+}
+.products ul li{
+  display: inline-block;
+   margin-left: 2vw;
+   margin-top: 1vw;
+}
+.topCategories Button{
+   background-color: white;
+  color: black;
+  border-radius: 25%;
+  padding: 10px;
+  min-width: 12%;
+  margin-right: 2%;
+  overflow: hidden;
+  font-size: 1vw;
+}
+.categories Button {
+  background-color: white;
+  color: black;
+  border-radius: 25%;
+  padding: 10px;
+  min-width: 12%;
+  margin-right: 2%;
+  overflow: hidden;
+  font-size: 1vw;
+}
+
+.TopButton Button {
+  color: white;
+  border-color: black;
+  background-color: black;
+  font-size: 1.5vw;
+}
+.HomeMenu ul{
+  margin-right: 1.5vw;
+  margin: auto;
+}
+.HomeMenu ul li {
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.HomeMenu ul li a {
+  position: relative;
+  text-align: center;
+  border: 0.1vw solid black ;
+}
+.HomeMenu ul li a i{
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 45%; 
+
+}
+
+.discountAd img {
+  width: 100%;
+  height: 45vw;
+  object-fit: fill;
+}
+
+.listImages {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.listImages ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.listImages ul li {
+  display: inline-block;
+  width: 50%;
+  overflow-x: hidden;
+}
+
+.listImages img {
+  max-width: 100%;
+  height: auto;
+}
+
+.kidsPicture img {
+  width: 100%;
+  max-height: 45vw;
+}
+
+.modal-dialog-right {
+  background-color: white;
+  width: 30% !important;
+  height: 100% !important;
+  float: right;
+}
+.modal-title{
+  padding: 1vw;
+  font-weight: bold;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.modal-header button,.topMenuButtom{
+  background-color: white;
+  padding: 0.1vw;
+  font-size: 1vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  margin: auto;
+  border: 0.1vw solid grey;
+}
+.modal-header button:hover,.topMenuButtom:hover{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.modal-footer button{
+  margin:auto;
+  font-size: 1vw;
+  border-radius: 25%;
+  width: 5vw;
+}
+#slideRight {
+    position: absolute;
+    right: -300px;
+    animation: slideRight 0.5s forwards;
+}
+@keyframes slideRight {
+  100% {right: 0px;}
+}
+.modal-dialog-top {
+  background-color: white;
+  height: 14vw;
+  width: 100% !important;
+}
+#slideTop{
+    position: absolute;
+    top: -300px;
+    animation: slideTop 0.5s forwards;
+}
+@keyframes slideTop {
+  100% {top: 0px;}
+}
+.productBagIcon{
+  position: absolute;
+  background-color: black;
+  bottom: 5%;
+  right: 5%;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+.productBagIcon i{
+  color: white;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 45%; 
+    font-size: 1.5vw;
+}
+.ItemsInBag{
+    color: white;
+    position: absolute;
+    background-color: black;
+    width: 1vw;
+    height: 1vw;
+    transform: translate(-50%, -50%);
+    top: 0vw;
+    right: -0.5vw;
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.ItemsInBag p{
+  color: white;
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  
+}
+.productBagIcon i:hover{
+    font-size: 2vw;
+}
+.modal-body ul{
+  list-style: none;
+  direction: rtl;
+}
+.PurchaseButton{
+  width: 10vw;
+  border-radius: 30%;
+  background-color: black;
+  color: white;
+  font-size: 1.4vw;
+}
+.PurchaseButton:hover{
+  background-color: white;
+  color: black;
+}
