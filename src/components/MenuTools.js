@@ -52,7 +52,7 @@ export default class MenuTools extends Component {
                                 <div className="modal-content-right" style={{ height: '100%' }} >
                                     <div className="modal-header" style={{ height: '15%' }}>
                                         <div className="col-10">
-                                            <h5 className="modal-title" id="exampleModalLongTitle" style={{ marginLeft: '4vw' }}> My bag</h5>
+                                            <h5 className="modal-title" id="exampleModalLongTitle" style={{ marginLeft: '4vw' }}>המוצרים שלי</h5>
                                         </div>
                                         <div className="col-2" style={{ textAlign: 'center' }}>
                                             <button type="button" data-dismiss="modal" aria-label="Close" >X</button>

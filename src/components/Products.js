@@ -17,7 +17,7 @@ export default class Products extends Component {
 
 
     componentDidMount() {
-        axios.get('https://myprivateshop.herokuapp.com/products').then((res) => {
+        axios.get('https://myprivateshopjoy.herokuapp.com/products').then((res) => {
             this.setState({
                 webProducts: res.data,
                 count: res.data.length
@@ -51,7 +51,7 @@ export default class Products extends Component {
                                 <div style={{ width: '25vw', height: '30vw' }}>
                                     <div style={{ height: '80%', position: 'relative' }}>
                                         <img src={imgSrc} alt="source not found" style={{ objectFit: 'fill', width: '100%', height: '100%' }}></img>
-                                        <a className="productBagIcon" onClick={() => this.addNotification(item)} type="button"> <i className="bi bi-handbag-fill"></i></a>
+                                        <button className="productBagIcon" onClick={() => this.addNotification(item)} type="button"> <i className="bi bi-handbag-fill"></i></button>
                                     </div>
                                     <div style={{ height: '20%', position: 'relative' }}>
                                         <div style={{ position: 'absolute', top: '50%', textAlign: 'center', transform: 'translateY(-50%)', left: '0', right: '0', margin: 'auto', fontSize: '1vw' }}>
