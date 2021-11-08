@@ -112,7 +112,7 @@ export default class MenuTools extends Component {
                                     <div className="row" style={{ height: '14vw' }}>
                                         <div className="col-11 topCategories" style={{ textAlign: 'center', margin: 'auto' }} >
                                             <ul style={{ margin: 'auto' }}>
-                                                <li><a href="/women"><Button>WOMEN</Button></a></li>
+                                                <li><a href="women/"><Button>WOMEN</Button></a></li>
                                                 <li><a href="/men"><Button>MEN</Button></a></li>
                                                 <li><Button>KIDS</Button></li>
                                                 <li><a href="/"><Button>HOME</Button></a></li>
