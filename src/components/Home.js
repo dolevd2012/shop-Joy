@@ -10,7 +10,6 @@ export default class Home extends Component {
         return (
             <div style={{ overflow: 'auto' }}>
                 <Header itemsToPayFor={list} />
-                <Video />
                 <DiscountAd />
             </div>
         )
