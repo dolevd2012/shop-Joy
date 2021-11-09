@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import salesHeaderService from '../service/salesHeaderService'
 import axios from 'axios';
 import MenuTools from './MenuTools'
 
