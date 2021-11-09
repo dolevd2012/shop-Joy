@@ -40,7 +40,6 @@ export default class Products extends Component {
         return (
             <div>
                 <Header itemsToPayFor={this.state.selectedProducts} />
-                <h1>AA?</h1>
                 <NotificationContainer />
                 <div className="products">
                     <ul style={{ padding: '0px', marginLeft: '7vw' }}>
