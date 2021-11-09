@@ -80,7 +80,6 @@ export default class Header extends Component {
                     </div>
 
                 </div>
-                <MenuTools itemsToPayFor={this.props.itemsToPayFor} />
 
             </div>
         )
