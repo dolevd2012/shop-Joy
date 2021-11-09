@@ -77,10 +77,9 @@ export default class Header extends Component {
                     </div>
                     <div className="col-4 TopButton" style={{ textAlign: 'left' }}>
                         <button onClick={this.handlePlusClick}>{'>'}</button>
-                    </div>
-
+                    </div>   
                 </div>
-
+                  <MenuTools itemsToPayFor={this.props.itemsToPayFor} />
             </div>
         )
     }
