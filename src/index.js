@@ -6,10 +6,9 @@ import Product from './components/Products'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 ReactDOM.render(
   <Router>
-    <Route exact path="https://shopandjoy.netlify.app/women" render={() => <Product type="female" />} />
-    <Route exact path="https://shopandjoy.netlify.app/women" render={() => <Product type="female" />} />
-    <Route exact path="/men" render={() => <Product type="male" />}  />
-    <Route exact path="/women" component={Home} />
+    <Route exact path="/" render={() => <Product type="female" />} />
+    <Route  path="/women" render={() => <Product type="female" />} />
+    <Route  path="/men" render={() => <Product type="male" />}  />
   </Router>,
   document.getElementById('root')
 );
