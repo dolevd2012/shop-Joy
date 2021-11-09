@@ -17,7 +17,7 @@ export default class Products extends Component {
 
 
     componentDidMount() {
-        axios.get('https://myprivateshopjoy.herokuapp.com/products').then((res) => {
+        axios.get(`https://myprivateshopjoy.herokuapp.com/products/byType/${this.props.type}`).then((res) => {
             this.setState({
                 webProducts: res.data,
                 count: res.data.length
