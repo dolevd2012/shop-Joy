@@ -8,7 +8,7 @@ export default class Home extends Component {
         const json = sessionStorage.getItem("itemsSelectedToPurchase");
         var list = JSON.parse(json);
         return (
-            <div>
+            <div style={{ overflow: 'auto' }}>
                 <Header itemsToPayFor={list} />
                 <Video />
                 <DiscountAd />
