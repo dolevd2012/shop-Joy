@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-//import productService from '../service/productsHeaderService'
 import axios from 'axios';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
