@@ -30,7 +30,7 @@ code {
   display: inline;
 }
 .products{
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .products ul li{
   display: inline-block;
