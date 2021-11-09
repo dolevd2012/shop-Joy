@@ -105,7 +105,6 @@ code {
 .listImages ul li {
   display: inline-block;
   width: 50%;
-  overflow-x: hidden;
 }
 
 .listImages img {
