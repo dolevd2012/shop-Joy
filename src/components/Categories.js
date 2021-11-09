@@ -9,7 +9,7 @@ function Categories() {
             <a href="/women"><Button>WOMEN</Button></a>
             <a href="/men"><Button>MEN</Button></a>
             <Button>KIDS</Button>
-            <Link to="/women">women?</Link>
+            <Link to="/women"><Button>women2</Button></Link>
         </div>
 
     )
