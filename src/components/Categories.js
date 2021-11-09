@@ -6,10 +6,9 @@ function Categories() {
     return (
 
         <div className="container-fluid categories">
-            <a href="/women"><Button>WOMEN</Button></a>
-            <a href="/men"><Button>MEN</Button></a>
+            <Link to="/women"><Button>WOMEN</Button></Link>
+            <Link to="/men"><Button>MEN</Button></Link>
             <Button>KIDS</Button>
-            <Link to="/women"><Button>women2</Button></Link>
         </div>
 
     )
