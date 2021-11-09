@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={Home} />
-    <Route exact path="/women" render={() => <Product type="woman" />} />
+    <Route exact path="/women" render={() => <Product type="female" />} />
     <Route exact path="/men" render={() => <Product type="male" />} />
   </Router>,
   document.getElementById('root')
