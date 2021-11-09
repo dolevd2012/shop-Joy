@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+
 export default class MenuTools extends Component {
     render() {
         var total = 0
@@ -113,10 +115,10 @@ export default class MenuTools extends Component {
                                     <div className="row" style={{ height: '14vw' }}>
                                         <div className="col-11 topCategories" style={{ textAlign: 'center', margin: 'auto' }} >
                                             <ul style={{ margin: 'auto' }}>
-                                                <li><a href="/women"><Button>WOMEN</Button></a></li>
-                                                <li><a href="/men"><Button>MEN</Button></a></li>
+                                                <li><Link to="/women"><Button>WOMEN</Button></Link></li>
+                                                <li><Link to="/men"><Button>MEN</Button></Link></li>
                                                 <li><Button>KIDS</Button></li>
-                                                <li><a href="/"><Button>HOME</Button></a></li>
+                                                <li><Link to="/"><Button>HOME</Button></Link></li>
                                             </ul>
                                         </div>
                                         <div className="col-1" style={{ textAlign: 'center', margin: 'auto' }}>
