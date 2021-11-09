@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Button from 'react-bootstrap/Button';
-import { Link } from 'react-router-dom';
-
 export default class MenuTools extends Component {
     render() {
         var total = 0
@@ -17,11 +15,7 @@ export default class MenuTools extends Component {
         return (
             <div>
                 <div className="container-fluid row" style={{ padding: '0px', margin: '0px', position: 'relative' }}>
-                    <div className="col-4"></div>
-                    <div className="col-4 my-3">
-                        <h5 style={{ textAlign: 'center', fontSize: '1.5vw', margin: 'auto', padding: '1vw', fontFamily: 'cursive' }}>Shop&Joy</h5>
-                    </div>
-                    <div className="HomeMenu col-4 my-3" style={{ textAlign: 'right', padding: '0.5vw' }}>
+                    <div className="HomeMenu col-4  my-3" style={{ textAlign: 'left', padding: '0.5vw' }}>
                         <ul>
                             <li>
                                 <a type="button" data-toggle="modal" data-target="#topModal"
@@ -43,6 +37,11 @@ export default class MenuTools extends Component {
                             </li>
 
                         </ul>
+                    </div>
+                    <div className="col-4 my-3">
+                        <h5 style={{ textAlign: 'center', fontSize: '1.5vw', margin: 'auto', padding: '1vw', fontFamily: 'cursive' }}>Shop&Joy</h5>
+                    </div>
+                    <div className="col-4">
 
                     </div>
 
@@ -114,10 +113,10 @@ export default class MenuTools extends Component {
                                     <div className="row" style={{ height: '14vw' }}>
                                         <div className="col-11 topCategories" style={{ textAlign: 'center', margin: 'auto' }} >
                                             <ul style={{ margin: 'auto' }}>
-                                                <li><Link to="/women"><Button>WOMEN</Button></Link></li>
-                                                <li><Link to="/men"><Button>MEN</Button></Link></li>
+                                                <li><a href="/women"><Button>WOMEN</Button></a></li>
+                                                <li><a href="/men"><Button>MEN</Button></a></li>
                                                 <li><Button>KIDS</Button></li>
-                                                <li><Link to="/"><Button>HOME</Button></Link></li>
+                                                <li><a href="/"><Button>HOME</Button></a></li>
                                             </ul>
                                         </div>
                                         <div className="col-1" style={{ textAlign: 'center', margin: 'auto' }}>
