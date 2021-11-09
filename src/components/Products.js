@@ -3,6 +3,8 @@ import Header from './Header'
 import axios from 'axios';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 export default class Products extends Component {
     constructor() {
@@ -41,6 +43,7 @@ export default class Products extends Component {
             <div>
                 <Header itemsToPayFor={this.state.selectedProducts} />
                 <NotificationContainer />
+                <Link to="/"><Button>Home</Button></Link>
                 <div className="products">
                     <ul style={{ padding: '0px', marginLeft: '7vw' }}>
 
