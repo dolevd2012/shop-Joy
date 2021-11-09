@@ -29,6 +29,9 @@ code {
 .topCategories ul li{
   display: inline;
 }
+.products{
+  overflow: scroll;
+}
 .products ul li{
   display: inline-block;
    margin-left: 2vw;
