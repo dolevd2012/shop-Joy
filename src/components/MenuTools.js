@@ -57,6 +57,7 @@ export default class MenuTools extends Component {
                                         </div>
                                         <div className="col-2" style={{ textAlign: 'center' }}>
                                             <button type="button" data-dismiss="modal" aria-label="Close" >X</button>
+                                            <Link to="/women"><Button>WOMEN</Button></Link>
                                         </div>
                                     </div>
                                     {condition
