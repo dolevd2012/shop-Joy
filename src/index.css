@@ -128,7 +128,7 @@ code {
 }
 .modal-open {
   overflow:hidden;
-  overflow-y:scroll;
+  overflow-y:inherit;
   padding-right:0 !important;
 }
 .modal-header button,.topMenuButtom{
