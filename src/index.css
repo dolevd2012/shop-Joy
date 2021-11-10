@@ -153,11 +153,11 @@ code {
 }
 #slideRight {
     position: absolute;
-    left: -300px;
+    left: -100vw;
     animation: slideLeft 0.5s forwards;
 }
 @keyframes slideLeft {
-  100% {left: 0px;}
+  100% {left: 0vw;}
 }
 .modal-dialog-top {
   background-color: white;
@@ -167,11 +167,11 @@ code {
 }
 #slideTop{
     position: absolute;
-    top: -300px;
+    top: -100vw;
     animation: slideTop 0.5s forwards;
 }
 @keyframes slideTop {
-  100% {top: 200px;}
+  100% {top: 0vw;}
 }
 .productBagIcon{
   position: absolute;
