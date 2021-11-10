@@ -59,7 +59,7 @@ export default class MenuTools extends Component {
                                         </div>
                                     </div>
                                     {condition
-                                        ? <div className="modal-body" style={{ textAlign: 'left', fontSize: '1vw', fontWeight: 'bold', height: '75%', overflowY: 'scroll', padding: '0' }}>
+                                        ? <div className="modal-body" style={{ textAlign: 'left', fontSize: '1vw', fontWeight: 'bold', height: '75%', overflowY: 'scroll', padding: '0', overflowX: 'hidden' }}>
 
                                             <ul style={{ margin: '1vw', padding: '0' }}>
                                                 {this.props.itemsToPayFor.map((item, index) => {
