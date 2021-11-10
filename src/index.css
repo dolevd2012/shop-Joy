@@ -223,7 +223,7 @@ code {
   border-radius: 30%;
   background-color: black;
   color: white;
-  font-size: 1.4vw;
+  font-size: 1vw;
 }
 .PurchaseButton:hover{
   background-color: white;
