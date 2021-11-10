@@ -108,13 +108,13 @@ export default class MenuTools extends Component {
                         </div>
                     </div>
 
-                    <div className="container" >
+                    <div className="container-fluid" >
                         <div className="modal" id="topModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" data-backdrop="false" aria-hidden="true" style={{ backgroundColor: 'rgba(0, 0, 0, .5)' }}>
                             <div className="modal-dialog-top" id="slideTop" role="document" >
                                 <div className="modal-content-top" >
                                     <div className="row" style={{ height: '14vw' }}>
                                         <div className="col-11 topCategories" style={{ textAlign: 'center', margin: 'auto' }} >
-                                            <ul style={{ margin: 'auto' }}>
+                                            <ul>
                                                 <li><Link to="/women"><Button>WOMEN</Button></Link></li>
                                                 <li><Link to="/men"><Button>MEN</Button></Link></li>
                                                 <li><Button>KIDS</Button></li>
