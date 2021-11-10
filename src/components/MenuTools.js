@@ -20,22 +20,20 @@ export default class MenuTools extends Component {
                     <div className="HomeMenu col-4  my-3" style={{ textAlign: 'left', padding: '0.5vw' }}>
                         <ul>
                             <li>
-                                <a type="button" data-toggle="modal" data-target="#topModal"
+                                <button data-toggle="modal" data-target="#topModal"
                                     style={{ width: '4vw', height: '2vw', borderRadius: '30%' }}>
                                     <i className="bi bi-list" style={{ fontSize: '1.5vw' }}></i>
-                                </a>
+                                </button>
                             </li>
                             <li>
-                                <div style={{ position: 'relative' }}>
-                                    <a type="button" data-toggle="modal" data-target="#rightModal"
+                                    <button data-toggle="modal" data-target="#rightModal"
                                         style={{ width: '2vw', height: '2vw', borderRadius: '50%', padding: '1vw' }} >
                                         <i className="bi bi-handbag-fill" style={{ fontSize: '1.5vw' }}></i>
                                         {condition
                                             ? <p className="ItemsInBag" id="itemInBag">{this.props.itemsToPayFor.length}</p>
                                             : <p></p>
                                         }
-                                    </a >
-                                </div>
+                                    </button >
                             </li>
 
                         </ul>
