@@ -161,7 +161,9 @@ code {
 .modal-dialog-top {
   background-color: white;
   height: 14vw;
-  width: 100% !important;
+  width: 80%;
+  left: 10%;
+  
 }
 #slideTop{
     position: absolute;
