@@ -153,11 +153,11 @@ code {
 }
 #slideRight {
     position: absolute;
-    left: -100vw;
-    animation: slideLeft 0.5s forwards;
+    right: -100vw;
+    animation: slideRight 0.5s forwards;
 }
-@keyframes slideLeft {
-  100% {left: 0vw;}
+@keyframes slideRight {
+  100% {right: 0vw;}
 }
 .modal-dialog-top {
   background-color: white;
