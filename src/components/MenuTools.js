@@ -17,7 +17,7 @@ export default class MenuTools extends Component {
         return (
             <div>
                 <div className="container-fluid row" style={{ padding: '0px', margin: '0px', position: 'relative' }}>
-                    <div className="HomeMenu col-4  my-3" style={{ textAlign: 'left', padding: '0.5vw' }}>
+                    <div className="HomeMenu col-4  my-3" style={{ textAlign: 'right', padding: '0.5vw' }}>
                         <ul>
                             <li>
                                 <button data-toggle="modal" data-target="#topModal"
