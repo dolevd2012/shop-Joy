@@ -17,7 +17,11 @@ export default class MenuTools extends Component {
         return (
             <div>
                 <div className="container-fluid row" style={{ padding: '0px', margin: '0px', position: 'relative' }}>
-                    <div className="HomeMenu col-4  my-3" style={{ textAlign: 'right', padding: '0.5vw' }}>
+                    <div className="col-4"></div>
+                    <div className="col-4 my-3">
+                        <h5 style={{ textAlign: 'center', fontSize: '1.5vw', margin: 'auto', padding: '1vw', fontFamily: 'cursive' }}>Shop&Joy</h5>
+                    </div>
+                    <div className="HomeMenu col-4 my-3" style={{ textAlign: 'right', padding: '0.5vw' }}>
                         <ul>
                             <li>
                                 <button data-toggle="modal" data-target="#topModal"
@@ -26,22 +30,17 @@ export default class MenuTools extends Component {
                                 </button>
                             </li>
                             <li>
-                                    <button data-toggle="modal" data-target="#rightModal"
-                                        style={{ width: '2vw', height: '2vw', borderRadius: '50%', padding: '1vw' }} >
-                                        <i className="bi bi-handbag-fill" style={{ fontSize: '1.5vw' }}></i>
-                                        {condition
-                                            ? <p className="ItemsInBag" id="itemInBag">{this.props.itemsToPayFor.length}</p>
-                                            : <p></p>
-                                        }
-                                    </button >
+                                <button data-toggle="modal" data-target="#rightModal"
+                                    style={{ width: '2vw', height: '2vw', borderRadius: '50%' }} >
+                                    <i className="bi bi-handbag-fill" style={{ fontSize: '1.5vw' }}></i>
+                                    {condition
+                                        ? <p className="ItemsInBag" id="itemInBag">{this.props.itemsToPayFor.length}</p>
+                                        : <p></p>
+                                    }
+                                </button >
                             </li>
 
                         </ul>
-                    </div>
-                    <div className="col-4 my-3">
-                        <h5 style={{ textAlign: 'center', fontSize: '1.5vw', margin: 'auto', padding: '1vw', fontFamily: 'cursive' }}>Shop&Joy</h5>
-                    </div>
-                    <div className="col-4">
 
                     </div>
 
@@ -57,11 +56,11 @@ export default class MenuTools extends Component {
                                         </div>
                                         <div className="col-2" style={{ textAlign: 'center' }}>
                                             <button type="button" data-dismiss="modal" aria-label="Close" >X</button>
-                                            <Link to="/women"><Button>WOMEN</Button></Link>
                                         </div>
                                     </div>
                                     {condition
                                         ? <div className="modal-body" style={{ textAlign: 'left', fontSize: '1vw', fontWeight: 'bold', height: '75%', overflowY: 'scroll', padding: '0' }}>
+
                                             <ul style={{ margin: '1vw', padding: '0' }}>
                                                 {this.props.itemsToPayFor.map((item, index) => {
                                                     total = total + item.productPrice
@@ -82,7 +81,9 @@ export default class MenuTools extends Component {
                                                 })}
                                             </ul>
                                         </div>
-                                        : <div className="modal-body" style={{ textAlign: 'center', fontSize: '1vw', fontWeight: 'bold', height: '75%' }}>אין מוצרים בסל</div>
+                                        : <div className="modal-body" style={{ textAlign: 'center', fontSize: '1vw', fontWeight: 'bold', height: '75%' }}>
+                                            <p>אין מוצרים בסל</p>
+                                        </div>
                                     }
                                     <div className="container-fluid px-0" style={{ height: '10%' }}>
                                         <div style={{ backgroundColor: 'grey', height: '1%' }}></div>
